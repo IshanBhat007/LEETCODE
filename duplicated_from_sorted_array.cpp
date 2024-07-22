@@ -17,3 +17,16 @@ class Solution {
 // set<int> s1(nums.begin( , nums.end());
 // nums = vector<int>(s1.begin(),s1.end());
 // return s1.size();
+
+
+// METHOD 3---> BINARY SEARCH
+
+
+// vector<int>v2;
+// for(auto i = nums.begin(); i <nums.end(); i++) {
+//     if(binary_search(i+1 ,nums.end(), *i) == false)
+//     v2.push.back(*i);
+// }
+// nums = v2;
+// return nums.size();
+// }};
